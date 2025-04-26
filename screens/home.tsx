@@ -20,7 +20,6 @@ const home: React.FC<HomeScreenProps> = ({ navigation }) => {
 
   return (
     <View>
-      <Text>Home Screen</Text>
       <FlatList
         data={items}
         keyExtractor={(item) => item.id.toString()}
@@ -40,3 +39,4 @@ const home: React.FC<HomeScreenProps> = ({ navigation }) => {
 };
 
 export default home;
+
